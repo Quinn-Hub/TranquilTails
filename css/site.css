@@ -5,6 +5,7 @@ body {
 #header-block {
     margin-top: 6%;
     margin-bottom: 6%;
+    padding: 1%;
     background-color: #d7ffe6;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,14 +48,14 @@ body {
 .image-container {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
     padding-right: 2%;
     overflow: hidden;
 }
 
 img {
     float: left;
-    max-width: 12%;
+    max-width: 92%;
     height: auto;
 }
 
